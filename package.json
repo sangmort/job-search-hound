@@ -1,0 +1,34 @@
+{
+  "name": "job-search-hound",
+  "version": "1.0.0",
+  "description": "A simple FF extension to make job hunting easier.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sangmort/job-search-hound.git"
+  },
+  "keywords": [
+    "firefox",
+    "indeed",
+    "indeed.com",
+    "linkedin",
+    "extension",
+    "jobhunt",
+    "job",
+    "jobhunting"
+  ],
+  "author": "Osy Yassen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sangmort/job-search-hound/issues"
+  },
+  "homepage": "https://github.com/sangmort/job-search-hound#readme",
+  "devDependencies": {
+    "eslint": "^8.37.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
