@@ -282,3 +282,8 @@
 .mosaic-provider-jobcards {
   max-width: 45rem;
 }
+
+/* Remove all images, seem to only be in job listings */
+img {
+  display: none;
+}
