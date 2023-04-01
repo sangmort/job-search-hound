@@ -233,3 +233,16 @@
   -webkit-column-gap: 24px;
   column-gap: 1rem;
 }
+
+/* Remove unnecessary padding above left container */
+.is-desktop .jobsearch-JobCountAndSortPane-jobCountInfo {
+  margin-top: 0;
+}
+
+/* Reduce padding around card search result header */
+.mosaic-provider-jobcards
+  .tapItem.result.resultWithShelf
+  .slider_container
+  .jobCard_mainContent {
+  padding: 0.5rem 0.75rem 0 !important;
+}
