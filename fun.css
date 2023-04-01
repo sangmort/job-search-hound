@@ -23,7 +23,12 @@
 
 /* Hide google sign-in pop up */
 #animated-container {
-  display: none;
+  display: none !important;
+}
+
+/* Reduce padding of spacer above search on Home Page */
+.jobsearch-Spacer {
+  padding: 0.25rem;
 }
 
 /* width of content box around buttons + job search*/
