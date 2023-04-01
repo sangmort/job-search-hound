@@ -6,6 +6,11 @@
   --bg-color-05: #272727;
 }
 
+/* Hide corner message element */
+#mosaic-serpModals {
+  display: none !important;
+}
+
 /* Hide secondary logo */
 [dir="ltr"] #gnav-main-container.gnav .css-u4d8yy {
   display: none;
@@ -192,7 +197,22 @@
   outline: none;
 }
 
-/* Promo Classes */
+/* Hide Promo Classes on Home Page */
+.icl-ButtonPromo,
+.icl-TextPromo,
+.icl-TextPromo-text,
+.icl-TextPromo-link,
+.icl-TextPromo-iconContainer,
+.icl-TextPromo-divider,
+.jobsearch-Footer-promos,
+.jobsearch-PostJobPromo-container,
+.jobsearch-PostJobPromo-containerBottom,
+.jobsearch-CardPromo-container,
+.jobsearch-TextPromo-container {
+  display: none !important;
+}
+
+/* Hide Promo Classes in Search Results*/
 .icl-Card-cta-promo,
 .icl-IconDecorative-promo,
 .icl-Modal-promo,
@@ -245,4 +265,10 @@
   .slider_container
   .jobCard_mainContent {
   padding: 0.5rem 0.75rem 0 !important;
+}
+
+/* Increase width of left & right results frame */
+.jobsearch-LeftPane,
+.jobsearch-RightPane {
+  width: 45vw;
 }
