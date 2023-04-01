@@ -7,8 +7,8 @@
 }
 
 /* Remove secondary logo */
-#indeed-globalnav-secondary-logo {
-  display: none;
+[dir="ltr"] #gnav-main-container.gnav .css-u4d8yy {
+  display: none ;
 }
 
 /* remove google sign-in pop up */
