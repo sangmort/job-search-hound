@@ -8,7 +8,7 @@
 
 /* Remove secondary logo */
 [dir="ltr"] #gnav-main-container.gnav .css-u4d8yy {
-  display: none ;
+  display: none;
 }
 
 /* remove google sign-in pop up */
@@ -133,4 +133,25 @@
   border: 0;
   justify-content: center;
   margin: 0 0.35rem 0.35rem 0;
+}
+
+/* Promo Classes */
+.icl-Card-cta-promo,
+.icl-IconDecorative-promo,
+.icl-Modal-promo,
+.icl-TextInput-promo,
+.jobsearch-InlineResumePromo,
+.jobsearch-JapanPostAJobPromo,
+.jobsearch-JapanSerpBottomResumePromoCard-bodyText,
+.jobsearch-SerpPromo,
+.jobsearch-SerpPromoBody,
+.jobsearch-SerpPromoBorder,
+.jobsearch-SerpPromoHeader,
+.jobsearch-SerpPromoIcon,
+.jobsearch-SerpPromoInner,
+.jobsearch-SerpPromoLink,
+.jobsearch-SerpPromoLogo,
+.jobsearch-SerpPromoTag,
+.jobsearch-SerpPromoWrapper {
+  display: none !important;
 }
