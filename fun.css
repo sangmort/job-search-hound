@@ -4,155 +4,89 @@
   --bg-color-03: #222;
   --bg-color-04: #242424;
   --bg-color-05: #272727;
-  --bg-color-06: #2c2c2c;
-  --bg-color-07: #2e2e2e;
-  --bg-color-08: #333;
-  --bg-color-09: #343434;
-  --bg-color-10: #383838;
-  --txt-color-01: #c2c2c2;
-  --txt-color-02: #a6a6a6;
-  --txt-color-03: #7a7a7a;
-  --link-color-01: #f00;
-  --link-color-02: #a00;
-  --link-color-03: #600;
+}
+/* remove google sign-in pop up */
+#animated-container {
+  display: none;
 }
 
-body *,
-html *,
-head *,
-footer * {
-  background: var(--bg-color-01) !important;
-  background-color: var(--bg-color-01) !important;
+/* width of content box around buttons + job search*/
+.is-desktop .jobsearch-RichSearch .jobsearch-RichSearchBody {
+  width: 90vw !important;
 }
 
-h1 *,
-h2,
-h2 *,
-h3 *,
-h4 *,
-h5 *,
-h6 *,
-p,
-p * {
-  background-color: none !important;
-  color: var(--txt-color-01) !important;
+/* padding of content box around buttons + job search */
+.is-desktop .jobsearch-RichSearch .jobsearch-RichSearchBody {
+  margin: 0 auto;
+  padding: 0 1rem;
 }
 
-tbody,
-table,
-table th,
-table td,
-table tr {
-  color: var(----txt-color-02) !important;
-  background: var(--bg-color-01) !important;
-  background-color: var(--bg-color-01) !important;
-  border: 1px solid var(--bg-color-01);
+/* box around buttons + job search */
+.is-desktop .jobsearch-RichSearch {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  padding: 0.5rem 0 0 0;
+  border-bottom: 1px solid #e4e2e0;
+  width: 100%;
 }
 
-caption,
-pre,
-.block,
-ul,
-ol,
-li,
-fieldset,
-form,
-input,
-label,
-legend {
-  color: var(----txt-color-02) !important;
-  background: var(--bg-color-01) !important;
+/* job search fields */
+[dir]
+  .MosaicProviderRichSearchDaemon
+  .yosegi-EmbeddedLabelInput
+  .icl-TextInput-control {
+  border: 1px solid #000000;
+  padding: 0.25rem 0.5rem;
+  color: #303030;
+  font-family: Noto Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  letter-spacing: 0;
+  line-height: 1.5rem;
+  outline-offset: 0 !important;
 }
 
-span,
-code,
-kbd,
-pre,
-[class*="code"],
-div[class*="code"] {
-  background-color: var(--bg-color-03) !important;
+/* focus version */
+[dir]
+  .MosaicProviderRichSearchDaemon
+  .yosegi-EmbeddedLabelInput
+  .icl-TextInput-control:focus {
+  border: 1px solid #000000;
+  padding: 0.25rem 0.5rem !important;
+  color: #303030;
+  font-family: Noto Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  letter-spacing: 0;
+  line-height: 1.5rem;
+  outline-offset: 0 !important;
 }
 
-svg,
-.svg {
-  fill: white !important;
+/* controls margin-bottom of search in relation to filter buttons */
+.MosaicProviderRichSearchDaemon .yosegi-InlineWhatWhere {
+  margin-bottom: -0.5rem;
 }
 
-[class*="icon"] {
-  color: white !important;
+/* flex wrapper, center buttons */
+.MosaicProviderRichSearchDaemon .yosegi-FilterPill-pillList {
+  display: flex;
+  margin: 0;
+  justify-content: center;
 }
 
-a *,
-a[id*="*"],
-a[class*="*"] a:link *,
-a:visited,
-a:active,
-a:focus,
-li a {
-  color: var(--link-color-02);
-}
-
-a:hover {
-  color: var(--link-color-01);
-  background: none !important;
-  background-color: none !important;
-}
-
-em,
-i,
-.italic {
-  color: var(--txt-color-02) !important;
-  border: none;
-}
-
-strong,
-b,
-.bold {
-  color: var(--txt-color-02) !important;
-  border: none;
-}
-
-cite {
-  color: var(--txt-color-03);
-}
-
-button,
-.btn,
-div[class*="btn"],
-div[id*="btn"] {
-  background-color: inherit !important;
-  color: var(----txt-color-02) !important;
-  border: inherit !important;
-}
-
-span[class*="button"],
-span[id*="button"] {
-  background-color: inherit;
-  color: var(----txt-color-02) !important;
-  border: none;
-}
-
-div[class*="nav"],
-div[class*="bar"],
-div[class*="side"],
-[class*="side"],
-[class*="card"],
-[class*="menu"],
-div[class*="foot"],
-[class*="foot"],
-div[class*="container"] {
-  color: var(----txt-color-02) !important;
-  background-color: var(--bg-color-01) !important;
-}
-
-p.div,
-div[id*="nav"],
-div[id*="bar"],
-div[id*="side"],
-div[id*="footer"],
-div[id*="foot"],
-[class*="light"],
-div::before {
-  color: var(----txt-color-02) !important;
-  background-color: var(--bg-color-01) !important;
+/* job filter butons */
+.MosaicProviderRichSearchDaemon
+  .yosegi-FilterPill.is-desktop
+  .yosegi-FilterPill-pill {
+  box-sizing: border-box;
+  height: auto;
+  min-width: 5.5rem;
+  padding: calc(0.25rem + 2px) calc(0.5rem + 2px);
+  border: 0;
+  justify-content: center;
+  margin: 0 0.35rem 0.35rem 0;
 }
