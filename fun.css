@@ -166,3 +166,8 @@
 .jobsearch-SerpPromoWrapper {
   display: none !important;
 }
+
+/* Remove redundent search result text */
+.jobsearch-SerpTitle {
+	display: none;
+}
