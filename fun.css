@@ -40,15 +40,17 @@
   width: 100%;
 }
 
-
 /* Change container around search input fields */
-[dir] .MosaicProviderRichSearchDaemon .yosegi-EmbeddedLabelInput .icl-TextInput {
-	border: 0px solid #949494; 
-	border-radius: .5rem; 
-	display: -ms-flexbox;
-	display: flex;
-	align-items: center;
-	padding: .25rem .25rem;
+[dir]
+  .MosaicProviderRichSearchDaemon
+  .yosegi-EmbeddedLabelInput
+  .icl-TextInput {
+  border: 0px solid #949494;
+  border-radius: 0.5rem;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  padding: 0.25rem 0.25rem;
 }
 
 /* job search fields */
@@ -146,6 +148,24 @@
   margin: 0 0.35rem 0.35rem 0;
 }
 
+/* job filter button dropdown fix position & width */
+.MosaicProviderRichSearchDaemon .yosegi-FilterPill-dropdownList {
+  top: auto;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  width: max-content !important;
+  min-width: 5.5rem;
+  background: #fff;
+  border: 1px solid #ececec;
+  box-sizing: border-box;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  z-index: 1000;
+  display: none;
+}
+
 /* Promo Classes */
 .icl-Card-cta-promo,
 .icl-IconDecorative-promo,
@@ -169,5 +189,5 @@
 
 /* Remove redundent search result text */
 .jobsearch-SerpTitle {
-	display: none;
+  display: none;
 }
