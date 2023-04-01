@@ -287,3 +287,11 @@
 img {
   display: none;
 }
+
+/* Clean up job listing title top margins */
+.jobsearch-JobInfoHeader-title-containerEji {
+  display: flex;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+  margin-top: 0;
+}
