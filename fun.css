@@ -278,3 +278,7 @@
 .jobsearch-RightPane {
   width: 45vw;
 }
+/* Increase width of left results frame on Home Page */
+.mosaic-provider-jobcards {
+  max-width: 45rem;
+}
