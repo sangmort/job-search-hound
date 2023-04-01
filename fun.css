@@ -166,6 +166,27 @@
   display: none;
 }
 
+/* Mod filter button dropdown text & spacing */
+.MosaicProviderRichSearchDaemon .yosegi-FilterPill-dropdownListItemLink {
+  box-sizing: border-box;
+  font-family: Noto Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 0.65rem;
+  letter-spacing: 0;
+  line-height: 1.75rem !important;
+  color: #2d2d2d !important;
+  text-decoration: none !important;
+  background: none;
+  display: block;
+  border: none;
+  padding: 0.25rem 0.75rem;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  margin: 0;
+  outline: none;
+}
+
 /* Promo Classes */
 .icl-Card-cta-promo,
 .icl-IconDecorative-promo,
