@@ -40,6 +40,17 @@
   width: 100%;
 }
 
+
+/* Change container around search input fields */
+[dir] .MosaicProviderRichSearchDaemon .yosegi-EmbeddedLabelInput .icl-TextInput {
+	/* border: 1px solid #949494; */
+	/* border-radius: .5rem; */
+	display: -ms-flexbox;
+	display: flex;
+	align-items: center;
+	padding: .25rem .25rem;
+}
+
 /* job search fields */
 [dir]
   .MosaicProviderRichSearchDaemon
