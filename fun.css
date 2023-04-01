@@ -67,11 +67,14 @@
 }
 
 /* Change how close to search the "what" & "where" text is */
-[dir] .MosaicProviderRichSearchDaemon .yosegi-EmbeddedLabelInput .icl-TextInput-labelWrapper {
-	margin: 0 .5rem 0 0;
-	line-height: 1.125rem;
-	white-space: nowrap;
-	word-break: keep-all;
+[dir]
+  .MosaicProviderRichSearchDaemon
+  .yosegi-EmbeddedLabelInput
+  .icl-TextInput-labelWrapper {
+  margin: 0 0.5rem 0 0;
+  line-height: 1.125rem;
+  white-space: nowrap;
+  word-break: keep-all;
 }
 
 /* controls margin-bottom of search in relation to filter buttons */
