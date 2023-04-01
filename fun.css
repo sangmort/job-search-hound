@@ -5,6 +5,12 @@
   --bg-color-04: #242424;
   --bg-color-05: #272727;
 }
+
+/* Remove secondary logo */
+#indeed-globalnav-secondary-logo {
+  display: none;
+}
+
 /* remove google sign-in pop up */
 #animated-container {
   display: none;
