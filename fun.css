@@ -77,6 +77,33 @@
   word-break: keep-all;
 }
 
+/* Change search button size */
+.MosaicProviderRichSearchDaemon .yosegi-InlineWhatWhere-primaryButton {
+  cursor: pointer;
+  background: none;
+  font-family: Noto Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+  letter-spacing: 0;
+  line-height: 1.43;
+  margin: 0 0 1rem;
+  line-height: 1.125rem;
+  padding: 0.45rem 0.5rem;
+  display: block;
+  box-sizing: border-box;
+  white-space: nowrap;
+  word-break: keep-all;
+  flex-shrink: 0;
+  background-color: #2557a7;
+  border: 0.0625rem solid transparent;
+  border-radius: 0.5rem;
+  color: #fff;
+  box-shadow: none;
+  text-align: center;
+  text-decoration: none;
+  min-width: 9rem;
+}
+
 /* controls margin-bottom of search in relation to filter buttons */
 .MosaicProviderRichSearchDaemon .yosegi-InlineWhatWhere {
   margin-bottom: -0.5rem;
