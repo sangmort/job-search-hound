@@ -23,7 +23,8 @@
 }
 
 /* Hide google sign-in pop up */
-#animated-container {
+#animated-container,
+#credentials-picker-container {
   display: none !important;
 }
 
@@ -285,6 +286,11 @@
 
 /* Remove all images, seem to only be in job listings */
 img {
+  display: none;
+}
+
+/* Hide 'matches job preferences...' text in job listings */
+.css-7c0b8 {
   display: none;
 }
 
