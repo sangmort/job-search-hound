@@ -288,10 +288,16 @@ img {
   display: none;
 }
 
-/* Clean up job listing title top margins */
+/* Clean up job listing title top margins on Home Page */
 .jobsearch-JobInfoHeader-title-containerEji {
   display: flex;
   -moz-box-pack: justify;
   justify-content: space-between;
   margin-top: 0;
+}
+
+/* Clean up job results listing padding on Home Page */
+.fastviewjob.jobsearch-ViewJobLayout--embedded .jobsearch-HeaderContainer {
+  padding: 0 1.15rem;
+  display: flex;
 }
