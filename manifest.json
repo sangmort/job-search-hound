@@ -3,17 +3,16 @@
   "version": "1.0.0",
   "manifest_version": 3,
   "description": "Blocks promoted job postings on Indeed.com",
-  "action": {
-    "default_title": "Job Search Hound",
-    "default_icon": {
-      "16": "images/firefox2.png",
-      "32": "images/firefox2.png",
-      "48": "images/firefox2.png",
-      "128": "images/firefox2.png"
-    }
+  "icons": {
+    "16": "images/firefox2.png",
+    "32": "images/firefox2.png",
+    "48": "images/firefox2.png",
+    "128": "images/firefox2.png"
   },
-  "permissions": ["activeTab", "scripting"],
-  "background": {
-    "service_worker": "background.js"
-  }
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["https://indeed.com/*", "https://www.indeed.com/*"]
+    }
+  ]
 }
