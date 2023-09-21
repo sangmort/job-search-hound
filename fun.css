@@ -6,6 +6,7 @@
   --bg-color-05: #272727;
 }
 
-body {
-  font-size: 6rem;
+/* Hide all divs with the class `promo` */
+div[class*="promo" i] {
+  display: none !important;
 }
