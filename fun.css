@@ -6,6 +6,6 @@
   --bg-color-05: #272727;
 }
 
-[data-tn-secton="*Promo"] {
-  background-color: red;
+body {
+  font-size: 6rem;
 }

@@ -9,10 +9,13 @@
     "48": "images/firefox2.png",
     "128": "images/firefox2.png"
   },
+  "permissions": ["scripting", "activeTab"],
   "content_scripts": [
     {
+      "css": ["fun.css"],
       "js": ["content.js"],
       "matches": ["https://indeed.com/*", "https://www.indeed.com/*"]
     }
   ]
+  
 }

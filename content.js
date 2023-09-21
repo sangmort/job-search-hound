@@ -1,6 +1,5 @@
-const linkElement = document.createElement("link");
-linkElement.rel = "stylesheet";
-linkElement.type = "text/css";
-linkElement.href = "/fun.css";
-
-document.head.appendChild(linkElement);
+const style = document.createElement("link");
+style.rel = "stylesheet";
+style.type = "text/css";
+style.href = chrome.runtime.getURL("fun.css");
+document.head.appendChild(style);
