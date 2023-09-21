@@ -5,7 +5,6 @@
   "description": "Blocks promoted job postings on Indeed.com",
   "action": {
     "default_title": "Job Search Hound",
-    "default_popup": "popup.html",
     "default_icon": {
       "16": "firefox2.png",
       "48": "firefox2.png",
