@@ -6,12 +6,12 @@
   --bg-color-05: #272727;
 }
 
+/* Invert filter to make the page dark */
+html {
+  filter: invert(100%);
+}
+
 /* Hide all divs with the class `promo` */
 div[class*="promo" i] {
   display: none !important;
-}
-
-/* Change background color of all divs to dark */
-div, div *, div > * {
-  background-color: #1e1e1e !important;
 }
