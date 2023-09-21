@@ -22,7 +22,12 @@ div[class*="css" i] {
   margin-bottom: 0;
 }
 
+/* Hide all classes that contain `disclaimer` */
 [class*="disclaimer" i] {
 display: none !important;
 }
 
+/* Reduce vertical margin of `apply on company site` button container */
+.fastviewjob .jobsearch-ViewJobButtons-container {
+  margin-top: 0;
+}
