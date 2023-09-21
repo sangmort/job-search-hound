@@ -15,3 +15,14 @@ html {
 div[class*="promo" i] {
   display: none !important;
 }
+
+/* Hide all divs with the class `promo` */
+div[class*="css" i] {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+[class*="disclaimer" i] {
+display: none !important;
+}
+
