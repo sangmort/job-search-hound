@@ -10,3 +10,8 @@
 div[class*="promo" i] {
   display: none !important;
 }
+
+/* Change background color of all divs to dark */
+div, div *, div > * {
+  background-color: #1e1e1e !important;
+}
